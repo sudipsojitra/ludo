@@ -9,6 +9,149 @@
 <body>
     <canvas id="myCanvas" height="500" width="500" style="border:2px solid;">
     </canvas>
+    <!-- safe circle for red -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // ctx.fillStyle = "#FF0000";
+        ctx.beginPath();
+        ctx.arc(215,83,10,0,2*Math.PI);
+        // ctx.fill();
+        ctx.stroke();
+    </script>
+    <!-- safe circle for green -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // ctx.fillStyle = "#FF0000";
+        ctx.beginPath();
+        ctx.arc(416,216,10,0,2*Math.PI);
+        // ctx.fill();
+        ctx.stroke();
+    </script>
+    <!-- safe circle for yellow -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // ctx.fillStyle = "#FF0000";
+        ctx.beginPath();
+        ctx.arc(283,417,10,0,2*Math.PI);
+        // ctx.fill();
+        ctx.stroke();
+    </script>
+    <!-- safe circle for blue -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // ctx.fillStyle = "#FF0000";
+        ctx.beginPath();
+        ctx.arc(83,283,10,0,2*Math.PI);
+        // ctx.fill();
+        ctx.stroke();
+    </script>
+    <!-- start home rectangle -->
+    <!-- for green -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#00FF00";
+        ctx.fillRect(266,33,34,33);
+    </script>
+    <!-- for yellow -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FFFF00";
+        ctx.fillRect(433,266,33,34);
+    </script>
+    <!-- for blue -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#22409A";
+        ctx.fillRect(200,433,33,33);
+    </script>
+    <!-- for blue -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(33,33,33,233);
+    </script>
+    <!-- home rectangle -->
+    <!-- for green -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#00FF00";
+        ctx.fillRect(233,33,33,233);
+    </script>
+    <!-- for yellow -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FFFF00";
+        ctx.fillRect(300,233,166,33);
+    </script>
+    <!-- for blue -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#22409A";
+        ctx.fillRect(233,233,33,233);
+    </script>
+    <!-- for blue -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(33,233,200,33);
+    </script>
+    <!-- box border line -->
+    <script>
+        var canvas = document.getElementById("myCanvas");
+       var ctx = canvas.getContext("2d");
+       // the triangle
+       ctx.beginPath();
+       ctx.moveTo(200, 500);
+       ctx.lineTo(200, 0);
+       ctx.closePath();
+       
+       ctx.stroke();
+    </script>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // the triangle
+        ctx.beginPath();
+        ctx.moveTo(300, 500);
+        ctx.lineTo(300, 0);
+        ctx.closePath();
+        
+        ctx.stroke();
+    </script>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // the triangle
+        ctx.beginPath();
+        ctx.moveTo(500, 200);
+        ctx.lineTo(0, 200);
+        ctx.closePath();
+        
+        ctx.stroke();
+    </script>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        // the triangle
+        ctx.beginPath();
+        ctx.moveTo(500, 300);
+        ctx.lineTo(0, 300);
+        ctx.closePath();
+        
+        ctx.stroke();
+    </script>
     <!-- two line -->
     <script>
          var canvas = document.getElementById("myCanvas");
@@ -18,10 +161,7 @@
         ctx.moveTo(233, 500);
         ctx.lineTo(233, 0);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -32,13 +172,10 @@
        ctx.moveTo(266, 500);
        ctx.lineTo(266, 0);
        ctx.closePath();
-
-       // the outline
-       ctx.lineWidth = 1;
-       ctx.strokeStyle = '#000000';
+       
        ctx.stroke();
-   </script>
-   <script>
+    </script>
+    <script>
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
         // the triangle
@@ -46,13 +183,10 @@
         ctx.moveTo(500, 233);
         ctx.lineTo(0, 233);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
-   <script>
+    <script>
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
         // the triangle
@@ -60,10 +194,7 @@
         ctx.moveTo(500, 266);
         ctx.lineTo(0, 266);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -75,10 +206,7 @@
         ctx.lineTo(200, 200);
         ctx.lineTo(250, 250);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
 
         // the fill color
@@ -94,10 +222,7 @@
         ctx.moveTo(300, 33);
         ctx.lineTo(200, 33);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -108,10 +233,7 @@
         ctx.moveTo(300, 66);
         ctx.lineTo(200, 66);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -122,10 +244,7 @@
         ctx.moveTo(300, 99);
         ctx.lineTo(200, 99);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -136,10 +255,7 @@
         ctx.moveTo(300, 133);
         ctx.lineTo(200, 133);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -150,10 +266,7 @@
         ctx.moveTo(300, 166);
         ctx.lineTo(200, 166);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <!-- complete green home path -->
@@ -166,10 +279,7 @@
         ctx.moveTo(300, 333);
         ctx.lineTo(200, 333);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -180,10 +290,7 @@
         ctx.moveTo(300, 366);
         ctx.lineTo(200, 366);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -194,10 +301,7 @@
         ctx.moveTo(300, 400);
         ctx.lineTo(200, 400);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -208,10 +312,7 @@
         ctx.moveTo(300, 433);
         ctx.lineTo(200, 433);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -222,10 +323,7 @@
         ctx.moveTo(300, 466);
         ctx.lineTo(200, 466);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <!-- complete green home path -->
@@ -238,10 +336,7 @@
         ctx.moveTo(466, 300);
         ctx.lineTo(466, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -252,10 +347,7 @@
         ctx.moveTo(433, 300);
         ctx.lineTo(433, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -266,10 +358,7 @@
         ctx.moveTo(400, 300);
         ctx.lineTo(400, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -280,10 +369,7 @@
         ctx.moveTo(366, 300);
         ctx.lineTo(366, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -294,10 +380,7 @@
         ctx.moveTo(333, 300);
         ctx.lineTo(333, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <!-- small line for red -->
@@ -309,10 +392,7 @@
         ctx.moveTo(166, 300);
         ctx.lineTo(166, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -323,10 +403,7 @@
         ctx.moveTo(133, 300);
         ctx.lineTo(133, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -337,10 +414,7 @@
         ctx.moveTo(100, 300);
         ctx.lineTo(100, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -351,10 +425,7 @@
         ctx.moveTo(66, 300);
         ctx.lineTo(66, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -365,10 +436,7 @@
         ctx.moveTo(33, 300);
         ctx.lineTo(33, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <!-- complete small line red -->
@@ -380,10 +448,7 @@
         ctx.moveTo(300, 299);
         ctx.lineTo(200, 299);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
     </script>
     <script>
@@ -395,10 +460,7 @@
         ctx.lineTo(300, 200);
         ctx.lineTo(250, 250);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
 
         // the fill color
@@ -414,10 +476,7 @@
         ctx.lineTo(200, 200);
         ctx.lineTo(300, 200);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
 
         // the fill color
@@ -433,10 +492,7 @@
         ctx.lineTo(250, 250);
         ctx.lineTo(300, 300);
         ctx.closePath();
-
-        // the outline
-        ctx.lineWidth = 1;
-        ctx.strokeStyle = '#000000';
+        
         ctx.stroke();
 
         // the fill color
